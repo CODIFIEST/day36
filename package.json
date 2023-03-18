@@ -12,6 +12,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.0",
     "@tsconfig/svelte": "^3.0.0",
+    "alchemy-sdk": "^2.6.1",
     "autoprefixer": "^10.4.13",
     "daisyui": "^2.51.3",
     "ethers": "^5.7.2",
