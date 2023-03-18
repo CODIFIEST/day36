@@ -57,7 +57,7 @@
                bind:value={qtyToMint}
             />
         </label>
-        <button class="btn" on:click={minter}>Click here to MINT</button>
+        <button class="btn" on:click={minter}>Click here to MINT. 2 max per transaction</button>
     
 
     </div>
@@ -77,10 +77,9 @@
         </div>
     {/if}
 {:else}
-    <h1 class="text-5xl font-bold">NINJA STARS</h1>
+    <h1 class="text-5xl font-bold">CANTO WANTO</h1>
     <p class="py-6">
-        Whip these bad boys all over the metaverse. Connect your wallet to
-        begin.
+        If you missed the first round of Cantos and you want one, you came to the right place.
     </p>
     <button on:click={async () => connect()} class="btn btn-primary"
         >Connect Wallet</button
